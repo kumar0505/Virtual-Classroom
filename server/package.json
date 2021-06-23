@@ -1,0 +1,35 @@
+{
+    "name": "eclass-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node build/server.js",
+        "dev": "ts-node-dev --respawn ./src/server.ts",
+        "build": "tsc"
+    },
+    "author": "Team eClass",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "http-status-codes": "^2.1.4",
+        "jsonwebtoken": "^8.5.1",
+        "pg": "^8.5.1",
+        "reflect-metadata": "^0.1.13",
+        "typeorm": "^0.2.30",
+        "winston": "^3.3.3"
+    },
+    "devDependencies": {
+        "@types/bcryptjs": "^2.4.2",
+        "@types/cors": "^2.8.6",
+        "@types/express": "^4.17.6",
+        "@types/jsonwebtoken": "^8.3.9",
+        "@types/node": "^13.13.1",
+        "ts-node": "^8.9.0",
+        "ts-node-dev": "^1.0.0-pre.44",
+        "typescript": "^3.8.3"
+    }
+}

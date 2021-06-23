@@ -1,0 +1,41 @@
+{"message":"Initializing database...","level":"info","timestamp":"2021-02-14T17:50:43.185Z"}
+{"message":"System connected to database","level":"info","timestamp":"2021-02-14T17:50:48.261Z"}
+{"message":"Initializing Express App Instance...","level":"info","timestamp":"2021-02-14T17:50:48.262Z"}
+{"message":"Express Application Initialized Successfuly.","level":"info","timestamp":"2021-02-14T17:50:48.266Z"}
+{"message":"server is running at port 5000","level":"info","timestamp":"2021-02-14T17:50:48.285Z"}
+{"message":"Initializing database...","level":"info","timestamp":"2021-02-15T07:47:39.360Z"}
+{"message":"System connected to database","level":"info","timestamp":"2021-02-15T07:47:40.939Z"}
+{"message":"Initializing Express App Instance...","level":"info","timestamp":"2021-02-15T07:47:40.941Z"}
+{"message":"Express Application Initialized Successfuly.","level":"info","timestamp":"2021-02-15T07:47:40.944Z"}
+{"message":"server is running at port 5000","level":"info","timestamp":"2021-02-15T07:47:40.949Z"}
+{"message":"Initializing database...","level":"info","timestamp":"2021-02-15T07:50:54.974Z"}
+{"message":"System connected to database","level":"info","timestamp":"2021-02-15T07:50:55.311Z"}
+{"message":"Initializing Express App Instance...","level":"info","timestamp":"2021-02-15T07:50:55.312Z"}
+{"message":"Express Application Initialized Successfuly.","level":"info","timestamp":"2021-02-15T07:50:55.316Z"}
+{"message":"server is running at port 5000","level":"info","timestamp":"2021-02-15T07:50:55.322Z"}
+{"message":"Initializing database...","level":"info","timestamp":"2021-02-15T07:53:43.933Z"}
+{"message":"System connected to database","level":"info","timestamp":"2021-02-15T07:53:44.272Z"}
+{"message":"Initializing Express App Instance...","level":"info","timestamp":"2021-02-15T07:53:44.273Z"}
+{"message":"Express Application Initialized Successfuly.","level":"info","timestamp":"2021-02-15T07:53:44.277Z"}
+{"message":"server is running at port 5000","level":"info","timestamp":"2021-02-15T07:53:44.283Z"}
+{"message":"Initializing database...","level":"info","timestamp":"2021-02-15T09:52:00.725Z"}
+{"message":"System connected to database","level":"info","timestamp":"2021-02-15T09:52:03.834Z"}
+{"message":"Initializing Express App Instance...","level":"info","timestamp":"2021-02-15T09:52:03.835Z"}
+{"message":"Express Application Initialized Successfuly.","level":"info","timestamp":"2021-02-15T09:52:03.841Z"}
+{"message":"server is running at port 5000","level":"info","timestamp":"2021-02-15T09:52:03.847Z"}
+{"message":"Closing database default connection due to application termination","level":"error","timestamp":"2021-02-15T10:57:26.258Z"}
+{"message":"Initializing database...","level":"info","timestamp":"2021-02-24T11:16:32.706Z"}
+{"message":"System connected to database","level":"info","timestamp":"2021-02-24T11:16:45.018Z"}
+{"message":"Initializing Express App Instance...","level":"info","timestamp":"2021-02-24T11:16:45.019Z"}
+{"message":"Express Application Initialized Successfuly.","level":"info","timestamp":"2021-02-24T11:16:45.022Z"}
+{"message":"server is running at port 5000","level":"info","timestamp":"2021-02-24T11:16:45.101Z"}
+{"message":"Initializing database...","level":"info","timestamp":"2021-03-02T05:57:23.150Z"}
+{"message":"System connected to database","level":"info","timestamp":"2021-03-02T05:57:49.696Z"}
+{"message":"Initializing Express App Instance...","level":"info","timestamp":"2021-03-02T05:57:49.697Z"}
+{"message":"Express Application Initialized Successfuly.","level":"info","timestamp":"2021-03-02T05:57:49.700Z"}
+{"message":"server is running at port 5000","level":"info","timestamp":"2021-03-02T05:57:49.745Z"}
+{"message":"Initializing database...","level":"info","timestamp":"2021-03-04T10:07:59.006Z"}
+{"message":"System connected to database","level":"info","timestamp":"2021-03-04T10:08:04.193Z"}
+{"message":"Initializing Express App Instance...","level":"info","timestamp":"2021-03-04T10:08:04.194Z"}
+{"message":"Express Application Initialized Successfuly.","level":"info","timestamp":"2021-03-04T10:08:04.197Z"}
+{"message":"server is running at port 5000","level":"info","timestamp":"2021-03-04T10:08:04.449Z"}

@@ -1,0 +1,14 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+#header-bar {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#header-container {
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}

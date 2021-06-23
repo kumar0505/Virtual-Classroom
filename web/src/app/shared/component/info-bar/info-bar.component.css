@@ -1,0 +1,19 @@
+#info-bar {
+  margin-top: 0px;
+  height: 28%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #d9534f;/*#A4C964;*/
+  color: #151515;
+  font-size: 18px;
+  font-weight: initial;
+}
+
+#infobar-container {
+  width: 100%;
+  justify-content: center;
+}
+
+#msg-container {
+  margin-bottom: auto;
+}

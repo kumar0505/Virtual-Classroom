@@ -1,0 +1,59 @@
+<div class="std-form-container">
+  <form [formGroup]="addStudentForm">
+    <mat-form-field appearance="outline">
+      <mat-label>First Name</mat-label>
+      <input matInput placeholder="Enter First Name" formControlName="firstNameCtrl">
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Last Name</mat-label>
+      <input matInput placeholder="Enter Last Name" formControlName="lastNameCtrl">
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Email</mat-label>
+      <input matInput placeholder="Enter Email" formControlName="emailCrtl">
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Contact</mat-label>
+      <input matInput placeholder="Enter Contact" formControlName="contactCrtl">
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Password</mat-label>
+      <input matInput placeholder="Enter Password" formControlName="passwordCtrl">
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Select Department</mat-label>
+      <mat-select>
+        <mat-option>
+          ECE
+        </mat-option>
+        <mat-option>
+          CS
+        </mat-option>
+        <mat-option>
+          CE
+        </mat-option>
+        <mat-option>
+          ME
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Roll Id</mat-label>
+      <input matInput placeholder="Student Roll Id" formControlName="rollId">
+    </mat-form-field>
+    <br>
+    <button mat-raised-button color="primary">Submit</button>
+  </form>
+</div>

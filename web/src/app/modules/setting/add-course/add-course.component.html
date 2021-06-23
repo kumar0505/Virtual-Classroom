@@ -1,0 +1,42 @@
+<div class="std-form-container">
+  <form [formGroup]="addCourseForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Course Name</mat-label>
+      <input matInput placeholder="Enter Course Name" formControlName="courseNameCrtl">
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Course Code</mat-label>
+      <input matInput placeholder="Course Code" formControlName="courseCodeCrtl">
+    </mat-form-field>
+    <br>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Select Department</mat-label>
+      <mat-select>
+        <mat-option>
+          ECE
+        </mat-option>
+        <mat-option>
+          CS
+        </mat-option>
+        <mat-option>
+          CE
+        </mat-option>
+        <mat-option>
+          ME
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <br>
+
+    <button type="button" mat-raised-button (click)="fileInput.click()" id="file-btn">
+      <mat-icon aria-hidden="false" aria-label="upload_icon">file_upload</mat-icon>
+      Upload Syllabus
+    </button>
+    <input hidden (change)="onFileSelected()" #fileInput type="file" id="file">
+    <br>
+    <button mat-raised-button color="primary">Submit</button>
+  </form>
+</div>

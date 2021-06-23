@@ -1,0 +1,43 @@
+<div class="loginFormContainer">
+  <div class="card-container" fxLayoutAlign="center">
+    <mat-card class="box">
+      <mat-card-header fxLayout="column" fxLayoutAlign="center" class="card-header">
+        <mat-card-title class="header-content">
+          <mat-icon>person</mat-icon> Login
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content fxLayoutAlign="center" class="card-body">
+        <form [formGroup]="signInForm" fxLayout="column" class="form-container">
+          <mat-form-field appearance="outline" fxLayout="column" class="input-field-container">
+            <mat-label>
+              <mat-icon class="input-icon">email</mat-icon>&nbsp;&nbsp; Enter your email
+            </mat-label>
+            <input matInput placeholder="abc@example.com" formControlName="email" required>
+            <mat-error *ngIf="signInForm.controls.email.invalid">{{getEmailErrorMessage()}}</mat-error>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline" fxLayout="column" class="input-field-container">
+            <mat-label>
+              <mat-icon class="input-icon">lock</mat-icon>&nbsp;&nbsp; Enter your password
+            </mat-label>
+            <input matInput [type]="hidePassword ? 'password' : 'text'" formControlName="password" required>
+            <button mat-icon-button matSuffix (click)="hidePassword = !hidePassword" [attr.aria-label]="'Hide password'"
+              [attr.aria-pressed]="hidePassword">
+              <mat-icon>{{hidePassword ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+            <mat-error *ngIf="signInForm.controls.password.invalid">{{getPasswordErrorMessage()}}</mat-error>
+          </mat-form-field>
+          <div fxLayout="row" fxLayoutAlign="center" class="button-container">
+            <button mat-raised-button color="primary" class="signin-button" (click)="submit()">
+              <mat-icon>login</mat-icon>&nbsp; SignIn
+            </button>
+          </div>
+        </form>
+      </mat-card-content>
+      <div class="signup-row" fxLayoutAlign="space-between" fxLayout="row">
+        <button mat-stroked-button color="primary"><a routerLink="/auth/signup">Register your institute</a></button>
+        <button mat-stroked-button color="warn"><a href="">Forget Password?</a></button>
+      </div>
+    </mat-card>
+  </div>
+</div>

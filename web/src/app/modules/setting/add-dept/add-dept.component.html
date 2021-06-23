@@ -1,0 +1,11 @@
+<div class="dept-form-container">
+  <form [formGroup]="addDeptForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Department Name</mat-label>
+      <input matInput placeholder="Enter Dept. Name" formControlName="deptName">
+      <mat-hint>Department name should be unique.</mat-hint>
+    </mat-form-field>
+    <br>
+    <button mat-raised-button color="primary" (click)="onDeptSubmit()">Submit</button>
+  </form>
+</div>

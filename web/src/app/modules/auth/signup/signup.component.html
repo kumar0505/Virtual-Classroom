@@ -1,0 +1,82 @@
+<div class="login-form-container">
+  <div fxLayout="row" fxLayoutAlign="center">
+    <mat-card class="box">
+      <mat-horizontal-stepper [linear]="false" #stepper>
+        <mat-step [stepControl]="secondFormGroup" label="Institute Details">
+          <form [formGroup]="secondFormGroup" fxLayout="column" class="form-container">
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>Institute Name</mat-label>
+              <input matInput placeholder="Institute name" formControlName="instNameCrtl" required>
+            </mat-form-field>
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>Address</mat-label>
+              <input matInput placeholder="Address" formControlName="addressCrtl" required>
+            </mat-form-field>
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>City</mat-label>
+              <input matInput placeholder="City" formControlName="cityCrtl" required>
+            </mat-form-field>
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>District</mat-label>
+              <input matInput placeholder="First" formControlName="districtCrtl" required>
+            </mat-form-field>
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>State</mat-label>
+              <input matInput placeholder="State" formControlName="stateCrtl" required>
+            </mat-form-field>
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>Pincode</mat-label>
+              <input matInput placeholder="Pincode" formControlName="pincodeCrtl" required>
+            </mat-form-field>
+            <div>
+              <button mat-raised-button color="primary" matStepperNext>Next</button>
+            </div>
+          </form>
+        </mat-step>
+        <mat-step [stepControl]="firstFormGroup">
+          <form [formGroup]="firstFormGroup" fxLayout="column" class="form-container">
+            <ng-template matStepLabel>Institute Admin Details</ng-template>
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>First Name</mat-label>
+              <input matInput placeholder="First name" formControlName="firstNameCtrl" required>
+            </mat-form-field>
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>Last Name</mat-label>
+              <input matInput placeholder="Last name" formControlName="lastNameCtrl" required>
+            </mat-form-field>
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>Email</mat-label>
+              <input matInput placeholder="Email" formControlName="emailCrtl" required>
+            </mat-form-field>
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>Contact</mat-label>
+              <input matInput placeholder="Contact" formControlName="contactCrtl" required>
+            </mat-form-field>
+            <div>
+              <button mat-raised-button color="primary" matStepperPrevious>Back</button>
+              <button mat-raised-button color="primary" matStepperNext>Next</button>
+            </div>
+          </form>
+        </mat-step>
+        <mat-step>
+          <form [formGroup]="thirdFormGroup" fxLayout="column" class="form-container">
+            <ng-template matStepLabel>Set Your Password</ng-template>
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>Enter Password</mat-label>
+              <input matInput placeholder="Enter Password" formControlName="passwordCtrl" required>
+            </mat-form-field>
+            <mat-form-field fxLayout="column" class="input-field-container">
+              <mat-label>Confirm Password</mat-label>
+              <input matInput placeholder="Confirm Password" formControlName="confirmCtrl" required>
+            </mat-form-field>
+            <div>
+              <button mat-raised-button color="primary" matStepperPrevious>Back</button>
+              <button mat-raised-button color="warn" (click)="stepper.reset()">Reset</button>
+              <button mat-raised-button color="primary" (click)="submit()">Submit</button>
+            </div>
+          </form>
+        </mat-step>
+      </mat-horizontal-stepper>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+.std-form-container {
+  width: 100%;
+}
+
+.mat-form-field {
+  width: 80%;
+}
+
+#file-btn {
+  width: 80%;
+  margin-bottom: 20px;
+}
